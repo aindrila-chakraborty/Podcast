@@ -1,0 +1,332 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,body{
+  height: 100%;
+  width: 100%;
+}
+
+body{
+ background-color: #2B2D42;
+ align-items: center;
+ padding-bottom: 50px;
+ display: flex;
+ justify-content: center;
+}
+#box{
+ width: 90%;
+ height: 90%;
+ background-color: white;
+ position: relative;
+ top: 15px;
+ border-radius: 12px;
+ display: flex;
+ gap: 2px;
+ /* background-image: url('https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bXVzaWN8ZW58MHx8MHx8fDA%3D');
+ background-position: center;
+ background-size: cover; */
+}
+#box #left{
+  background-color: white;
+  height: 70%;
+  width: 50%;
+  border-radius: 12px;
+  position: relative;
+  top: 2px;
+  right: 2px;
+}
+#box #right{
+  background-color:#2B2D42;
+  height: 90%;
+  width: 170% !important;
+  border-radius: 12px;
+  position: relative;
+  top: 4px;
+  right:5px;
+}
+#nav {
+  display: flex;
+  position: relative;
+  /* justify-content: space-between; */
+  left:50px;
+  top: 40px;
+}
+
+/* #left #nav #image{
+  margin-left: 20px;
+  position: relative;
+  left: 20px;
+} */
+  #words{
+  font-size: 35px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  position: relative;
+  left: 2%;
+}
+#search-container {
+ position: relative;
+ top: 20px;
+ left: 60px;
+ width:200px;
+ height: 20px;
+ display: flex;
+ justify-content: space-between;
+
+}
+
+#search-bar {
+ width: 300px;
+ height: 30px;
+ position: relative;
+ left: 45%;
+ padding: 20px;
+ border-radius: 4px;
+}
+
+#main{
+  width: 100%;
+  height: 20%;
+  color: black;
+  /* background-color: red; */
+  position: relative;
+  top: 15%;
+
+}
+#main #intro {
+  position: relative;
+  top: 50%;
+  left: 12%;
+
+}
+#main #intro h5{
+  position: relative;
+  top: 95%;
+  left: -2%;
+  letter-spacing: 5px;
+  font-size: 16px !important;
+
+}
+
+#main1{
+
+height: 30%;
+width: 100%;
+/* background-color: blue; */
+position: relative;
+top: 14%;
+}
+#main1 #intro1{
+  position: relative;
+  left:9%;
+  top: 9px;
+   font-size: 45px;
+   letter-spacing: -1px;
+   font-family: "Montserrat", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: 500;
+   font-style: normal;
+}
+#main2{
+  height: 30%;
+width: 100%;
+/* background-color:yellow; */
+position: relative;
+top: 16%;
+}
+#main2 #intro2{
+  position: relative;
+  left:9%;
+  top: 9px;
+   font-size: 20px;
+   font-family: "Lora", serif;
+   font-optical-sizing: auto;
+   font-weight: 500;
+   letter-spacing: 1px;
+}
+#btn{
+  /* background-color: violet; */
+  height: 30%;
+  width: 100%;
+  padding-left: 10%;
+  position: relative;
+  border-radius: 30px solid black;
+  top: 10%;
+  display: flex;
+  gap: 15px;
+}
+#button1{
+  height: 40px;
+  width: 150px;
+  border-radius: 30px solid rgb(115, 114, 114);
+background-color: #D5F388;
+font-size:17px;
+cursor: pointer;
+}
+#button2{
+  height: 40px;
+  width: 150px;
+  border-radius: 30px solid rgb(115, 113, 113);
+background-color:white;
+font-size:17px;
+cursor: pointer;
+}
+#photo #photo1{
+  border-radius: 50%;
+  position: relative;
+  top: 22%;
+}
+#photoContainer {
+  /* background-color: yellow; */
+  height: 30%;
+  width: 50%;
+  position: relative;
+  top: 79%;
+  left: -42%;
+  display: flex;
+  padding-left: 10%;
+}
+#photos #photo2{
+  border-radius: 50%;
+  position: relative;
+  top: 40px;
+  left: -10px;
+}
+#photto #photo3{
+  border-radius: 50%;
+  position: relative;
+  top: 40px;
+  left: -15px;
+}
+#followers{
+  height: 30%;
+  width: 70%;
+  /* background-color: red; */
+  position: relative;
+  top: 29%;
+  font-weight: 600;
+  font-size: 19px;
+  letter-spacing: 1px;
+}
+#followers #desc{
+  width: 70%;
+  height: 50%;
+}
+
+#right #navigation{
+  height: 30%;
+  width: 100%;
+  /* background-color: red; */
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 5px;
+  position: relative;
+  /* align-items: center; */
+  top: 5%;
+  
+}
+/* #right #navigation .link-group {
+  display: flex; 
+} */
+
+#right #navigation a{
+  font-size: 17px;
+  font-weight: 400;
+  padding: 12px;
+ position: relative;
+ top: 5%;
+ display: flex;
+ gap: 5px;
+ margin: 0 5px; /* Reduces horizontal space to 5px */
+ font-family: "Lora", serif;
+ font-optical-sizing: auto;
+
+}
+#right #signbtn{
+
+  /* width: 15px; */
+  height: 20%;
+  padding: 7px;
+  position: relative;
+  top:3%;
+  right: -2%;
+  width: 22px;
+  border-radius: 30px ;
+  font-family: "Lora", serif;
+   font-optical-sizing: auto;
+}
+#right #navigation  #signbtn #signbutton{
+  font-size: 12px;
+  border-radius: 15px; 
+  padding: 2px 2px;
+  background-color: #C0DC80;
+  width: 82px;
+  height: 43px;
+  cursor: pointer;
+  font-family: "Lora", serif;
+   font-optical-sizing: auto;
+}
+#hero{
+  width: 50%;
+  height: 60%;
+  background-color: yellow;
+  position:relative;
+  left: 22%;
+  display: flex;
+  top: -5%;
+  overflow: auto;
+  background-image: url('https://plus.unsplash.com/premium_photo-1682125519317-43a8d20dde37?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c29uZ3MlMjBjb3ZlciUyMGltYWdlfGVufDB8fDB8fHww');
+  background-size:cover;
+  background-position: center;
+  z-index: 10;
+  border-radius: 12px;
+}
+/* #hero2{
+  height: 40%;
+  border-radius: 12px;
+  width: 65%;
+  background-color: green;
+  position: relative;
+  top: -45%;
+  left: 35%;
+  background-image: url('https://plus.unsplash.com/premium_photo-1679079456083-9f288e224e96?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cG9kY2FzdHN8ZW58MHx8MHx8fDA%3D');
+  background-position: center;
+  background-size: cover;
+  z-index: 20;
+
+} */
+#hero3{
+height: 30%;
+width: 45%;
+background-color: deeppink;
+position: relative;
+top:-22% ;
+left: 13%;
+background-image: url('https://images.unsplash.com/photo-1638805316400-352dcad09eb6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nzh8fHNwb3RpZnl8ZW58MHx8MHx8fDA%3D');
+background-position: center;
+  background-size: cover;
+border-radius: 5px;z-index: 30;
+}
+#hero4{
+  height: 40%;
+width: 40%;
+background-color: deeppink;
+position: relative;
+top: -70%;
+left: 50%;
+z-index: 40;
+border-radius: 50%;
+background-image: url('https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bXVzaWN8ZW58MHx8MHx8fDA%3D');
+background-position: center;
+  background-size: cover;
+}
+/* #bottom{
+  position: relative;
+  top:95%;
+  display: flex;
+  background-color: yellow;
+  left: -59%;
+} */
